@@ -2,10 +2,17 @@ body{
     text-align: center;
 }
 
-.hero{
-    padding: 90px;
+.hero p{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 26px 25px;
+    
 }
 
+.hero h1{
+    font-size: 96px;
+    font-weight: bold;
+}
 
 footer{
     text-align: center;
