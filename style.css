@@ -7,3 +7,11 @@ body{
 }
 
 
+footer{
+    text-align: center;
+    position: fixed;
+    padding: 80px;
+    bottom: 0;
+
+}
+
