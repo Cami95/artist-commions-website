@@ -2,12 +2,8 @@ body{
     text-align: center;
 }
 
-.navigation-links{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    border: 3px solid red;
+.hero{
+    padding: 90px;
 }
-
 
 
