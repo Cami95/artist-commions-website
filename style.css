@@ -1,11 +1,16 @@
-body{
-    text-align: center;
-}
+
 
 .hero p{
     font-weight: bold;
     padding: 26px 25px;
+    text-align: center;
     
+}
+
+img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 
