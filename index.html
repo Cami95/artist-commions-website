@@ -10,8 +10,8 @@
         text-align: center;
         background: blue;
         color: white;
-        padding: 100px;
-        margin: 50px;
+        padding: 40px;
+        margin: 5px;
       }
 
       img {
@@ -22,6 +22,27 @@
         background: purple;
         border: 20px dashed blueviolet;
         border-radius: 50px;
+      }
+
+      img:hover {
+        background: pink;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto 0 auto;
+        padding: 15px 20px;
+        background: blueviolet;
+        color: white;
+        border: 1px solid black;
+        border-radius: 40px;
+        transition: all 2ms cubic-bezier(0.37, 0, 0.63, 1);
+      }
+
+      button:hover {
+        background: white;
+        color: blueviolet;
+        cursor: pointer;
       }
     </style>
   </head>
@@ -38,5 +59,7 @@
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT9uEcmf9m7TFiQHVEQUAZ3VN2Pm96IGhDGiwK4JUjWkPU8hj6pRX1s1AB&s=10"
       alt="women of color coding"
     />
+
+    <button>I have an Idea!!</button>
   </body>
 </html>
